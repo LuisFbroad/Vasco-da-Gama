@@ -53,3 +53,26 @@ nav ul li a:hover {
     border-radius: 30px;
 }
 
+.t-hino{
+    display: flex;
+    background-color: #0a410a;
+    border-left: 15px solid #000;
+    width: pre-line;
+    padding: 20px;
+    width: fit-content;
+    border-bottom-right-radius: 15px;
+}
+
+.hino-do-vasco {
+    color: #fff;
+    display: flex;
+    background-color: #0a410a;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 18px;
+    border-left: 15px solid #000;
+    padding: 20px;
+    width: fit-content;
+}
