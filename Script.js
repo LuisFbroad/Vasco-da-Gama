@@ -10,3 +10,17 @@ botaoTimeline.addEventListener("click", () => {
         botaoTimeline.textContent = "VER TIMELINE";
     }
 });
+
+const botoesCarrinho = document.querySelectorAll(".btn-carrinho");
+
+botoesCarrinho.forEach(botao => {
+    botao.addEventListener("click", () => {
+        botao.textContent = "✔ Adicionado!";
+        botao.style.background = "#00c853";
+
+        setTimeout(() => {
+            botao.textContent = "Adicionar ao Carrinho";
+            botao.style.background = "#e60000";
+        }, 1500);
+    });
+});

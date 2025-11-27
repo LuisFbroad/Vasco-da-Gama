@@ -298,10 +298,158 @@ nav ul li a:hover {
     text-align: left;
 }
 
+/* LOJA */
+
+.loja-banner {
+    text-align: center;
+    background: linear-gradient(90deg, #000, #111, #000);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px #ff000040;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.loja-banner h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* GRID DOS PRODUTOS */
+.produtos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+/* CARDS */
+.produto-card {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff000050;
+    backdrop-filter: blur(4px);
+    transition: 0.3s ease-in-out;
+}
+
+.produto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff000090;
+}
+
+.produto-card img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto-card h3 {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.preco {
+    color: #ff4040;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* BOTÃO ANIMADO */
+.btn-carrinho {
+    margin-top: 10px;
+    background: #e60000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-carrinho:hover {
+    background: #ff1a1a;
+    transform: scale(1.1);
+}
+
+/* MAIOR DE TODOS */
+/* SECTION GERAL */
+.socio-section {
+    padding: 40px 20px;
+    margin-top: 40px;
+    background: #f3f3f3;
+    border-radius: 20px;
+}
+
+/* TÍTULO */
+.socio-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+/* CARD PRINCIPAL */
+.socio-homenagem {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.socio-homenagem h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.socio-card {
+    background: #ffffff;
+    color: #000;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 20px #00000050;
+}
+
+.socio-foto {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+.socio-info {
+    text-align: left;
+}
+
+.socio-info h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.socio-info p {
+    font-size: 1.1rem;
+}
+
+.socio-info .frase {
+    font-style: italic;
+    margin-top: 10px;
+    color: #444;
+}
+
 /* RODAPÉ */
 
 footer {
-    margin-top: auto;
+    margin-top: 40px;
     background: black;
     text-align: center;
     padding: 20px;
