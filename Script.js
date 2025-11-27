@@ -1,6 +1,12 @@
-const botaoHino = document.getElementById("toggle-hino");
-const caixaHino = document.getElementById("caixa-hino");
+const botaoTimeline = document.getElementById("toggle-timeline");
+const caixaTimeline = document.getElementById("caixa-timeline");
 
-botaoHino.addEventListener("click", () => {
-    caixaHino.classList.toggle("aberto");
+botaoTimeline.addEventListener("click", () => {
+    caixaTimeline.classList.toggle("aberto");
+
+    if (caixaTimeline.classList.contains("aberto")) {
+        botaoTimeline.textContent = "LER MENOS";
+    } else {
+        botaoTimeline.textContent = "VER TIMELINE";
+    }
 });
