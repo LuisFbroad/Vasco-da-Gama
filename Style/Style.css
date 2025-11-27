@@ -67,6 +67,69 @@ nav ul li a:hover {
     border-radius: 30px;
 }
 
+/* ESTADIO */
+.estadio-section {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.estadio-texto {
+    max-width: 900px;
+    margin: 20px auto 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel img {
+    width: 100%;
+    border-radius: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px #000;
+}
+
+.btn-prev,
+.btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #00000080;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background: #e60000;
+}
+
+.btn-prev {
+    left: 10px;
+}
+
+.btn-next {
+    right: 10px;
+}
+
 /* MASCOTE */
 .mascote-section {
     width: 80%;
@@ -315,7 +378,6 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* GRID DOS PRODUTOS */
 .produtos-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -324,7 +386,6 @@ nav ul li a:hover {
     margin: auto;
 }
 
-/* CARDS */
 .produto-card {
     background: rgba(0, 0, 0, 0.55);
     padding: 20px;
@@ -357,7 +418,6 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-/* BOTÃO ANIMADO */
 .btn-carrinho {
     margin-top: 10px;
     background: #e60000;
@@ -376,7 +436,7 @@ nav ul li a:hover {
 }
 
 /* MAIOR DE TODOS */
-/* SECTION GERAL */
+
 .socio-section {
     padding: 40px 20px;
     margin-top: 40px;
@@ -384,7 +444,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-/* TÍTULO */
 .socio-title {
     text-align: center;
     font-size: 2rem;
@@ -393,7 +452,6 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* CARD PRINCIPAL */
 .socio-homenagem {
     width: 90%;
     margin: 60px auto;

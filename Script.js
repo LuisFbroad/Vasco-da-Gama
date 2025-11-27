@@ -24,3 +24,20 @@ botoesCarrinho.forEach(botao => {
         }, 1500);
     });
 });
+
+const carrossel = document.querySelector(".carrossel");
+const imagens = document.querySelectorAll(".carrossel img");
+
+let index = 0;
+
+document.querySelector(".btn-next").addEventListener("click", () => {
+    index++;
+    if (index >= imagens.length) index = 0;
+    carrossel.style.transform = `translateX(-${index * 100}%)`;
+});
+
+document.querySelector(".btn-prev").addEventListener("click", () => {
+    index--;
+    if (index < 0) index = imagens.length - 1;
+    carrossel.style.transform = `translateX(-${index * 100}%)`;
+});
